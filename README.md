@@ -162,7 +162,9 @@ Pretrained Swin Transformer model from Hugging Face
 
 This may take a few minutes depending on your internet connection. After the first run, the files will be cached locally.
 
-**Outputs**
+---
+
+# Outputs
 
 Running the project generates a training summary printed to the console, including:
 
@@ -172,7 +174,7 @@ optimizer comparison results
 
 best optimizer after training
 
-**Notes**
+# Notes
 
 Because the training subset contains only 50 images, the model will not achieve high accuracy or learn meaningful patterns. This lightweight setup is intended for experimentation and demonstration purposes.
 
