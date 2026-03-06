@@ -126,44 +126,6 @@ README.md | Project documentation |
 
 ---
 
-# Dependencies
-
-Install the required Python packages before running the project:
-
-```bash
-pip install torch torchvision transformers accelerate evaluate
-Running the Project
-
-Run the training pipeline using:
-
-python train.py
-
-The script will:
-
-Download the dataset if needed
-
-Load the pretrained model
-
-Train the model using three optimizers
-
-Evaluate model accuracy
-
-Print a summary of training results
-
-Identify the best optimizer
-
-First Run Note
-
-When running the project for the first time, the following resources will be downloaded automatically:
-
-CIFAR-10 dataset
-
-Pretrained Swin Transformer model from Hugging Face
-
-This may take a few minutes depending on your internet connection. After the first run, the files will be cached locally.
-
----
-
 # Outputs
 
 Running the project generates a training summary printed to the console, including:
