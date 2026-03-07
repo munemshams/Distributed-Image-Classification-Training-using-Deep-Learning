@@ -126,6 +126,22 @@ README.md | Project documentation |
 
 ---
 
+# Python Libraries Used
+
+The distributed training pipeline is implemented using the following Python libraries:
+
+| Library | Purpose |
+|--------|--------|
+| PyTorch (torch) | Core deep learning framework used for model training, tensor operations, and GPU acceleration |
+| torch.nn | Defines neural network components and loss functions such as CrossEntropyLoss |
+| torch.optim | Provides optimization algorithms including SGD, Adam, and AdamW |
+| torchvision | Loads and preprocesses the CIFAR-10 dataset |
+| transformers (Hugging Face) | Loads the pretrained Swin Transformer model used for image classification |
+| accelerate | Simplifies distributed training across CPUs and GPUs |
+| numpy | Numerical operations and data manipulation |
+| tqdm | Displays training progress bars during model training |
+
+
 # Outputs
 
 Running the project generates a training summary printed to the console, including:
